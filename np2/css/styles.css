@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+.header {
+    background-image: url(/img/imagebackground.png);
+    width: auto;
+    height: 996px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+.header img {
+    margin-left: 100px;
+    margin-top: 69px;
+    
+}
+ul.menu-button > li {
+    float: left;
+    margin-right: 52px;
+    display: inline;
+    list-style: none;
+}
+ul.menu-button{
+    margin-left: 1280px;
+    margin-top: -26px;
+}
+.menu-button a {
+    color: #fff;
+}
+.menu-button a:hover {
+    color: #39b9ef;
+    border-bottom: 2px solid #39b9ef;
+}
+.search img{
+    float: right;
+    margin-top: -22px;
+    margin-right: 60px;
+}
+.slider__title {
+    font-weight: 700;
+    color: #fff;
+    font-size: 72px;
+    margin-top: 385px;
+    text-align: center;
+}
+.slider__title span {
+    color: #39b9ef;
+}
+.header .text {
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    display: inline-block;
+    border-width: 2px;
+    border-color: #39b9ef;
+    background-color: #39b9ef;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;    
+}
+
+.button:hover {
+    color: #39b9ef;
+    border-color: #39b9ef;
+    background-color: #fff;
+}
+.header .button__wrap {
+    margin-top: 70px;
+    text-align: center;
+}
+.services h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+.col-4 .services-item {
+    height: 270px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.col-4 .services-item:last-child {
+    margin-right: 0;
+}
+.col-4 .services-item:first-child {
+    margin-left: 305px;
+}
+.services-item span{
+    font-size: 24px;
+    font-weight: 400;
+}
+.services-item p {
+    color: #999999;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.services-item img {
+    margin-bottom: 50px;
+}
+.top-services .button__wrap .button {
+    padding: 15.5px 26px 15.5px 26px;
+}
+.top-services .button__wrap {
+    text-align: center;
+    margin-top: 30px;
+}
